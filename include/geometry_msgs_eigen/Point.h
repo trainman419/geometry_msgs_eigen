@@ -18,20 +18,20 @@ namespace ros {
     template<> struct HasHeader< ::Eigen::Vector3d > : FalseType {};
     template<> struct HasHeader< ::Eigen::Vector3d const > : FalseType {};
 
-    template<> struct MD5Sum< ::Eigen::Vector3d > : ::ros::message_traits::MD5Sum< ::geometry_msgs::Point_<std::allocator<void> > > {
+    template<> struct MD5Sum< ::Eigen::Vector3d > : ::ros::message_traits::MD5Sum< ::geometry_msgs::Point > {
       static const char* value(const ::Eigen::Vector3d &) { return value(); }
       static const char* value() {
-        return ::ros::message_traits::MD5Sum< ::geometry_msgs::Point_<std::allocator<void> > >::value();
+        return ::ros::message_traits::MD5Sum< ::geometry_msgs::Point >::value();
       }
     };
 
-    template<> struct DataType< ::Eigen::Vector3d > : ::ros::message_traits::DataType< ::geometry_msgs::Point_<std::allocator<void> > > {
+    template<> struct DataType< ::Eigen::Vector3d > : ::ros::message_traits::DataType< ::geometry_msgs::Point > {
       static const char* value(const ::Eigen::Vector3d &) { return value(); }
       static const char* value() {
-        return ::ros::message_traits::DataType< ::geometry_msgs::Point_<std::allocator<void> > >::value();
+        return ::ros::message_traits::DataType< ::geometry_msgs::Point >::value();
       }
     };
-    template<> struct Definition< ::Eigen::Vector3d > : ::ros::message_traits::Definition< ::geometry_msgs::Point_<std::allocator<void> > > {};
+    template<> struct Definition< ::Eigen::Vector3d > : ::ros::message_traits::Definition< ::geometry_msgs::Point > {};
   }
 }
 
