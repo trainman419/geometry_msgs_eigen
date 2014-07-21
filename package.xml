@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>geometry_msgs_eigen</name>
+  <version>0.0.0</version>
+  <description>Proof-of-concept wrapper to subscribe directly to Eigen types</description>
+
+  <maintainer email="namniart@gmail.com">Austin Hendrix</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>eigen</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>roscpp</run_depend>
+</package>
