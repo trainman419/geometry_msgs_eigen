@@ -7,16 +7,6 @@
 #include <geometry_msgs/Point.h>
 #include <Eigen/Core>
 
-namespace geometry_msgs_eigen {
-  // behaves like an Eigen::Vector3d, except you can subscribe to it!
-  class Point : public Eigen::Vector3d {
-    public:
-      
-
-    private:
-  };
-} // namespace geometry_msgs_eigen
-
 namespace ros {
   namespace message_traits {
     template<> struct IsFixedSize< ::Eigen::Vector3d > : TrueType {};
